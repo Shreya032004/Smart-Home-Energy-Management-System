@@ -1,0 +1,56 @@
+.demo-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.demo-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.demo-container p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.demo-preview {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.demo-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  width: 200px;
+  backdrop-filter: blur(10px);
+}
+
+.demo-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.primary1-btn {
+  background: #4caf50;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.secondary1-btn {
+  background: #b09d80;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: black;
+  text-decoration: none;
+}

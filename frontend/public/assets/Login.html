@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://png.pngtree.com/background/20250124/original/pngtree-a-digital-illustration-of-an-energy-management-system-with-green-lines-picture-image_15728014.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            width: 420px;
+            background-color: rgba(255, 255, 255, 0.65);
+            padding: 30px;
+            margin: 90px auto;
+            border-radius: 12px;
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 6px;
+            border: 1px solid #999;
+            border-radius: 6px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        small {
+            display: block;
+            margin-bottom: 14px;
+            color: #111;
+        }
+
+        input:focus {
+            border-color: #000;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        button:hover {
+            background-color: rgba(255, 255, 255, 1);
+        }
+
+        .link {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Login</h1>
+
+    <form>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <small>Enter the email you used during registration.</small>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <small>Enter your registered password.</small>
+
+        <button type="submit">Login</button>
+
+        <div class="link">
+            <p>Don’t have an account?
+            <a href="Sign_Up.html">Sign Up</a>         
+            </p>
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
