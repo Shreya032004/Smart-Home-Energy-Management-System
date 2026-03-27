@@ -1,0 +1,69 @@
+/* Full page center alignment */
+.otp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  font-family: Arial, sans-serif;
+}
+
+/* Card styling */
+.otp-box {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+}
+
+/* Heading */
+.otp-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input field */
+.otp-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Input focus effect */
+.otp-input:focus {
+  border-color: #4facfe;
+  box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
+}
+
+/* Button styling */
+.otp-button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #4facfe;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+.otp-button:hover {
+  background: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 400px) {
+  .otp-box {
+    width: 90%;
+    padding: 30px;
+  }
+}
